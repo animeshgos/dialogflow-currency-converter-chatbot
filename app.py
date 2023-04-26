@@ -30,7 +30,7 @@ def fetch_conversion_factor(source, target):
     print(s)
     t = response['data'][target]
     print(t)
-    return s/t
+    return t/s
 
 
 if __name__ == "__main__":
